@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/ahmedovv123/automatic-verificator-of-HTML-and-MD/issues"
   },
-  "homepage": "https://github.com/ahmedovv123/automatic-verificator-of-HTML-and-MD#readme"
+  "homepage": "https://github.com/ahmedovv123/automatic-verificator-of-HTML-and-MD#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "husky": "^7.0.4"
+  }
 }
