@@ -85,3 +85,28 @@ $ echo "feat: Add feature" | commitlint
 
 # Passes
 ```
+
+## Check HTML and MD files before commit
+
+When we run command
+
+```bash
+git commit -m '<type>: <subject>'
+```
+
+It automaticlly runs following commands:
+
+```bash
+# First checking for .html files and fixing them
+
+$ npx eslint ./ --fix
+
+# Second check for .md files by command: 
+
+$ mdl -g ./
+
+# -g means that it will check only files known to git
+
+```
+
+If any of those checks throws status code 1 (error) - it doesnt allow to us commit the changes.
