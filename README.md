@@ -59,6 +59,25 @@ It is configured that type must start with lower-case and subject
 with start case or sentence case. You can check the file
 *commitlint.config.js* for more info.
 
+```text
+feat: Add beta sequence
+^--^  ^---------------^
+|     |
+|     +-> Summary in present tense.
+|
++-------> Type: chore, docs, feat, fix, refactor, style, or test.
+```
+
+Examples:
+
+* chore: Add Oyster build script
+* docs: Explain hat wobble
+* feat: Add beta sequence
+* fix: Remove broken confirmation message
+* refactor: Share logic between 4d3d3d3 and flarhgunnstow
+* style: Convert tabs to spaces
+* test: Ensure Tayne retains clothing
+
 Also we can check anytime manually:
 
 ```bash
@@ -111,3 +130,10 @@ $ mdl -g ./
 
 If any of those checks throws status code 1 (error) -
 it doesnt allow to us commit the changes.
+
+## Automated actions
+
+* Check syntax of .html file and fix.
+* Check syntax of .md file without fixing.
+* Check both before each commit.
+* Check if commit type and subject are correct.
