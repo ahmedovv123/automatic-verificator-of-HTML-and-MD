@@ -42,9 +42,9 @@ Next install the tool through [rubygems](https://rubygems.org/):
 ```bash
 $ gem install mdl
 # Then we can lint .md files with command:
-$ mdl README.md
+$ npm run mdl -- README.md
 # or directories with command:
-$ mdl docs/
+$ npm run mdl -- docs/
 ```
 
 ## Check commit names
