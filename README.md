@@ -101,7 +101,7 @@ It automaticlly runs following commands:
 
 $ npx eslint ./ --fix
 
-# Second check for .md files by command: 
+# Second check for .md files by command:
 
 $ mdl -g ./
 
@@ -109,4 +109,5 @@ $ mdl -g ./
 
 ```
 
-If any of those checks throws status code 1 (error) - it doesnt allow to us commit the changes.
+If any of those checks throws status code 1 (error) -
+it doesnt allow to us commit the changes.
