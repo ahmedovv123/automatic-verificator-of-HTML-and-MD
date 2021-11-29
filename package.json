@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "npx eslint ./ --fix && mdl -g ./"
+    "lint": "npx eslint ./ --fix && mdl -g ./",
+    "eslint": "eslint"
   },
   "repository": {
     "type": "git",
