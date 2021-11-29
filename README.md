@@ -7,7 +7,7 @@ git clone https://github.com/... automatic-verificator
 
 cd automatic-verificator
 
-npm install --dev
+npm install
 ```
 
 ## HTML Linting
@@ -15,11 +15,11 @@ npm install --dev
 We can check any .html file for any problems with command:
 
 ```bash
-$ npx eslint yourfile.html
+$ npm run eslint -- yourfile.html
 
 # If there is problems we can fix them simply by:
 
-$ npx eslint yourfile.html --fix
+$ npm run eslint -- yourfile.html --fix
 ```
 
 ## MD Linting
