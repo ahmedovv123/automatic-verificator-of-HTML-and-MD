@@ -137,3 +137,5 @@ it doesnt allow to us commit the changes.
 * Check syntax of .md file without fixing.
 * Check both before each commit.
 * Check if commit type and subject are correct.
+* Check if .html and .md file names are correct.
+  * Convention: Name - file.html/md
