@@ -1,0 +1,8 @@
+ls:
+  .html: regex:[A-Z][a-z]+ - [A-Za-z0-9 -_]+
+  .md: regex:[A-Z][a-z]+ - [A-Za-z0-9 -_]+
+
+ignore:
+  - .gitignore
+  - node_modules
+  - README.md
